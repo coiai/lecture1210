@@ -1,0 +1,86 @@
+/* index.html 固有のCSS */
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+.sec1__title {
+  position: relative;
+  top: 120px;
+  border-bottom: 4px solid pink;
+  height: fit-content;
+}
+
+.sec2 {
+  background-color: rgb(243, 243, 243);
+  padding: 100px 32px;
+}
+
+.feature {
+  display: flex;
+}
+
+.feature__element {
+  width: calc(33% - 16px);
+  padding: 0 8px;
+}
+
+.feature__image {
+  text-align: center;
+}
+
+.feature__title {
+  text-align: center;
+  margin: 14px 0;
+}
+
+.feature__explain {
+  line-height: 1.7;
+}
+
+/* -------------
+
+Sec3
+
+-------------*/
+
+.sec3 {
+  padding: 100px 32px;
+}
+
+.sec3__title {
+  margin-bottom: 28px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.card {
+  border-radius: 16px;
+  border: 1px solid lightgray;
+  width: calc(33% - 16px);
+  margin: 14px 8px;
+}
+
+.card__image {
+  border-radius: 16px 16px 0 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card__content {
+  padding: 14px 16px;
+}
+
+.card__title {
+  margin-bottom: 14px;
+}
+
+.card__explain {
+  line-height: 1.7;
+}

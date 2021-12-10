@@ -1,0 +1,34 @@
+/* base.css は複数のページで使うパーツのCSSです */
+
+/* ------------------------
+
+header
+
+------------------------*/
+
+.header {
+  height: 100px;
+  box-shadow: 0px 3px 6px lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__element {
+  margin: 0 16px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
